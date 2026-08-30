@@ -1,0 +1,2 @@
+import Link from "next/link";
+export default function Footer() { return <footer className="mt-24 border-t border-charcoal/10"><div className="container flex flex-col justify-between gap-5 py-10 text-sm text-charcoal/60 sm:flex-row"><div><p className="font-bold text-charcoal">Campus Feriwala</p><p className="mt-1">Small upgrades for big campus days.</p></div><div className="flex gap-6"><Link href="/products">Shop</Link><Link href="/dashboard">Dashboard</Link><span>© 2025 CF</span></div></div></footer>; }
